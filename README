@@ -21,7 +21,7 @@ Building
 Building on linux is tested using the autogen script.
 Tested with ueyesdk-setup-4.40-usb-amd64 on Ubuntu 12.04 64 bit.
 
-One first checkout run autogen.sh
+First run autogen.sh
 	$ chmod a+x autogen.sh
 	$ ./autogen.sh
 This will use autotools to setup the dev environment, and complete with the line:
@@ -43,7 +43,7 @@ to import the library locations into the project (Properties -> C/C++ General ->
 Libraries
 ---------
 
-Download and install the flycap SDK from Point Grey (https://www.ptgrey.com/support/downloads).
+Download and install the ueye SDK.
 Example install script:
 	cd ~/Downloads/LinuxCameraDrivers/uEye/
 	MACHINE_TYPE=`uname -m`
