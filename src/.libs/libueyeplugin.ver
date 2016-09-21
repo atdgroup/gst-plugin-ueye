@@ -1,0 +1,4 @@
+{ global:
+gst_plugin_desc;
+gst_ueye_src_get_type;
+local: *; };
